@@ -1,0 +1,191 @@
+[
+    {
+        "question": "Care este sintaxa corectă pentru a face referire la un script extern numit 'script.js'?",
+        "answers": [
+          {"text": "<script src='script.js'></script>", "correct": true},
+          {"text": "<script href='script.js'></script>", "correct": false},
+          {"text": "<script name='script.js'></script>", "correct": false}
+        ],
+        "explanation": "Sintaxa corectă pentru a face referire la un script extern este utilizarea atributului 'src' în interiorul tagului <script>."
+      },
+      {
+        "question": "Care dintre următoarele nu este un tip de date JavaScript?",
+        "answers": [
+          {"text": "Boolean", "correct": false},
+          {"text": "String", "correct": false},
+          {"text": "Float", "correct": true}
+        ],
+        "explanation": "JavaScript nu are un tip de date numit 'Float'. Acesta are un tip de date numit 'Number', care include numere întregi și numere cu virgulă mobilă."
+      },
+      {
+        "question": "Ce face operatorul '===' în JavaScript?",
+        "answers": [
+          {"text": "Compară valorile și tipurile", "correct": true},
+          {"text": "Compară doar valorile", "correct": false},
+          {"text": "Atribuie o valoare", "correct": false}
+        ],
+        "explanation": "Operatorul '===' în JavaScript verifică dacă valorile și tipurile sunt egale. Nu se efectuează conversie de tip."
+      },
+      {
+        "question": "Ce returnează metoda JavaScript 'charAt(3)' pe șirul de caractere 'Hello'?",
+        "answers": [
+          {"text": "'l'", "correct": true},
+          {"text": "'e'", "correct": false},
+          {"text": "'lo'", "correct": false}
+        ],
+        "explanation": "Metoda 'charAt(3)' returnează caracterul de pe poziția 3 din șirul de caractere, care este 'l'."
+      },
+      {
+        "question": "Care este scopul operatorului 'void' în JavaScript?",
+        "answers": [
+          {"text": "Returnează o valoare undefined", "correct": true},
+          {"text": "Transformă un operand în tipul de date void", "correct": false},
+          {"text": "Anulează o funcție", "correct": false}
+        ],
+        "explanation": "Operatorul 'void' este utilizat pentru a evalua o expresie fără a returna o valoare."
+      },
+      {
+        "question": "Ce face metoda JavaScript 'isNaN()'?",
+        "answers": [
+          {"text": "Verifică dacă o valoare este un număr", "correct": false},
+          {"text": "Verifică dacă o valoare este NaN", "correct": true},
+          {"text": "Transformă o valoare în NaN", "correct": false}
+        ],
+        "explanation": "Metoda 'isNaN()' verifică dacă o valoare este NaN (Not-a-Number)."
+      },
+      {
+        "question": "Care este rezultatul expresiei '3 + '3' în JavaScript?",
+        "answers": [
+          {"text": "'33'", "correct": true},
+          {"text": "6", "correct": false},
+          {"text": "Eroare", "correct": false}
+        ],
+        "explanation": "În JavaScript, dacă unul dintre operatori este un șir de caractere, se va face o concatenare a șirului."
+      },
+      {
+        "question": "Ce face metoda 'splice()' în JavaScript?",
+        "answers": [
+          {"text": "Elimină elemente dintr-un șir și/sau adaugă noi elemente", "correct": true},
+          {"text": "Concatenează două șiruri", "correct": false},
+          {"text": "Returnează o subsecvență a șirului original", "correct": false}
+        ],
+        "explanation": "Metoda 'splice()' poate elimina elemente dintr-un șir și/sau adăuga noi elemente în locul lor."
+      },
+      {
+        "question": "Ce va afișa următorul cod JavaScript?\n\n```\nconsole.log(typeof typeof 42);\n```",
+        "answers": [
+          {"text": "'string'", "correct": true},
+          {"text": "'number'", "correct": false},
+          {"text": "'undefined'", "correct": false}
+        ],
+        "explanation": "Expresia 'typeof typeof 42' va returna 'string', deoarece 'typeof 42' returnează 'number', iar apoi 'typeof' aplicat pe 'number' returnează 'string'."
+      },
+      {
+        "question": "Ce face metoda 'map()' în JavaScript?",
+        "answers": [
+          {"text": "Aplică o funcție la fiecare element al unui șir și returnează un nou șir cu rezultatele", "correct": true},
+          {"text": "Returnează un șir format din toate elementele unui alt șir", "correct": false},
+          {"text": "Verifică dacă toate elementele unui șir îndeplinesc o condiție", "correct": false}
+        ],
+        "explanation": "Metoda 'map()' în JavaScript aplică o funcție la fiecare element al unui șir și returnează un nou șir cu rezultatele."
+      },
+      {
+        "question": "Ce va afișa următorul cod JavaScript?\n\n```\nconsole.log(2 + '2' == '2' + 2);\n```",
+        "answers": [
+          {"text": "true", "correct": false},
+          {"text": "false", "correct": true},
+          {"text": "Eroare", "correct": false}
+        ],
+        "explanation": "Expresia '2 + '2' == '2' + 2' este evaluată ca '22 == '22', care este adevărată."
+      },
+      {
+        "question": "Ce face metoda 'filter()' în JavaScript?",
+        "answers": [
+          {"text": "Returnează un șir format doar din elementele care îndeplinesc o condiție", "correct": true},
+          {"text": "Modifică șirul original prin aplicarea unei funcții", "correct": false},
+          {"text": "Elimină elemente duplicat dintr-un șir", "correct": false}
+        ],
+        "explanation": "Metoda 'filter()' în JavaScript creează un nou șir cu toate elementele care îndeplinesc o anumită condiție."
+      },
+      {
+        "question": "Care este rezultatul expresiei 'null == undefined' în JavaScript?",
+        "answers": [
+          {"text": "true", "correct": true},
+          {"text": "false", "correct": false},
+          {"text": "Eroare", "correct": false}
+        ],
+        "explanation": "În JavaScript, 'null' și 'undefined' sunt considerate egale atunci când sunt comparate cu operatorul '==' (egal)."
+      },
+      {
+        "question": "Ce este un obiect în JavaScript?",
+        "answers": [
+          {"text": "O referință la o valoare", "correct": false},
+          {"text": "O colecție neordonată de perechi cheie-valoare", "correct": true},
+          {"text": "Un tip de date primitiv", "correct": false}
+        ],
+        "explanation": "Un obiect în JavaScript este o colecție neordonată de perechi cheie-valoare, unde cheile sunt șiruri și valorile pot fi orice tip de date."
+      },
+      {
+        "question": "Ce face operatorul '++' în JavaScript?",
+        "answers": [
+          {"text": "Incrementează valoarea cu 1", "correct": true},
+          {"text": "Decremează valoarea cu 1", "correct": false},
+          {"text": "Dublează valoarea", "correct": false}
+        ],
+        "explanation": "Operatorul '++' în JavaScript incrementează valoarea unei variabile cu 1."
+      },
+      {
+        "question": "Ce va afișa următorul cod JavaScript?\n\n```\nconsole.log(typeof [1, 2, 3]);\n```",
+        "answers": [
+          {"text": "'array'", "correct": false},
+          {"text": "'object'", "correct": true},
+          {"text": "'undefined'", "correct": false}
+        ],
+        "explanation": "În JavaScript, tipul de date al unui șir este 'object', nu 'array'."
+      },
+      {
+        "question": "Care este diferența dintre 'let' și 'var' în JavaScript?",
+        "answers": [
+          {"text": "'let' are scop de bloc, în timp ce 'var' are scop de funcție", "correct": true},
+          {"text": "'let' este folosit pentru declararea obiectelor, în timp ce 'var' este folosit pentru primitive", "correct": false},
+          {"text": "'let' nu poate fi reatribuit, în timp ce 'var' poate", "correct": false}
+        ],
+        "explanation": "Diferența principală dintre 'let' și 'var' este că 'let' are scop de bloc, în timp ce 'var' are scop de funcție."
+      },
+      {
+        "question": "Ce face metoda 'Object.keys()' în JavaScript?",
+        "answers": [
+          {"text": "Returnează toate cheile unui obiect", "correct": true},
+          {"text": "Verifică dacă un obiect conține o anumită cheie", "correct": false},
+          {"text": "Returnează o matrice cu toate valorile unui obiect", "correct": false}
+        ],
+        "explanation": "Metoda 'Object.keys()' în JavaScript returnează o matrice cu toate cheile unui obiect."
+      },
+      {
+        "question": "Ce face operatorul '||' (sau) în JavaScript?",
+        "answers": [
+          {"text": "Returnează primul operand adevărat sau ultimul operand", "correct": true},
+          {"text": "Verifică dacă ambii operanzi sunt adevărați", "correct": false},
+          {"text": "Returnează valoarea opusă a operandului", "correct": false}
+        ],
+        "explanation": "Operatorul '||' (sau) returnează primul operand adevărat sau ultimul operand, evaluând operația în mod leneș."
+      },
+      {
+        "question": "Ce este o funcție anonimă în JavaScript?",
+        "answers": [
+          {"text": "O funcție fără nume", "correct": true},
+          {"text": "O funcție care nu returnează nimic", "correct": false},
+          {"text": "O funcție care nu primește argumente", "correct": false}
+        ],
+        "explanation": "O funcție anonimă în JavaScript este o funcție fără nume, adică o funcție definită fără a avea un identificator asociat."
+      },
+      {
+        "question": "Cum se apelează o funcție numită 'myFunction' care acceptă doi parametri, 'a' și 'b', în JavaScript?",
+        "answers": [
+          {"text": "invoke myFunction(a, b)", "correct": false},
+          {"text": "myFunction.invoke(a, b)", "correct": false},
+          {"text": "myFunction(a, b)", "correct": true}
+        ],
+        "explanation": "O funcție în JavaScript este apelată prin utilizarea numelui funcției, urmat de paranteze care conțin argumentele. În acest caz, apelul corect ar fi 'myFunction(a, b)'."
+      }
+]
